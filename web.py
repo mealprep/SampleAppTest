@@ -1,7 +1,7 @@
 # Copyright 2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 # SPDX-License-Identifier: MIT-0
 
-from /usr/local/python38/bin/Flask import flask, flash, redirect, render_template, request, session, abort
+from usr.local.python38.bin.Flask import flask, flash, redirect, render_template, request, session, abort
 from random import randint
 
 
