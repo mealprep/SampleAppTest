@@ -3,9 +3,8 @@ version: 0.2
 phases:
   install:
     commands:
-      - sudo add-apt-repository ppa:deadsnakes/ppa
-      - sudo apt-get update
-      - sudo apt install python3-pip
+      - sudo yum update
+      - sudo yum install python3-pip
       - sudo pip3 install flask
   build:
     commands:
