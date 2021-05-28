@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - pip uninstall flask && python -m pip install flask
+      - pip uninstall flask -y && python -m pip install flask -y
   build:
     commands:
       - echo Build started on `date`
