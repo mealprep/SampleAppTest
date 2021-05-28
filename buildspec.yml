@@ -7,8 +7,7 @@ phases:
         - sudo apt-get update -y
         - sudo apt-get install python3.6 -y
         - sudo apt install python3-pip -y
-        - sudo pip3 install --upgrade
-        - sudo pip3 install Flask
+        - sudo pip3 install Flask --upgrade
   build:
     commands:
       - echo Build started on `date`
