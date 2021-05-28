@@ -7,9 +7,9 @@ phases:
         - sudo apt-get update -y
         - sudo apt-get install python3.6 -y
         - sudo apt install python3-pip -y
-        - sudo pip install python-dotenv
+        - sudo pip3 install python-dotenv
         - sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
-        - python3 -m pip install Flask
+        - pip3 install Flask
   build:
     commands:
       - echo Build started on `date`
